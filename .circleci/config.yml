@@ -104,5 +104,8 @@ jobs:
           name: Greenkeeper Lockfile upload on Greenkeeper branches
           command: greenkeeper-lockfile-upload
       - run:
+          name: 'Coveralls'
+          command: 'npm test && npm run coveralls'
+      - run:
           name: DangerCI
           command: npm run danger

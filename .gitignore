@@ -3,6 +3,7 @@ npm-debug.log
 .DS_Store
 .vscode
 coverage
+reports
 dist
 storybook-dist
 .idea
